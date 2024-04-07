@@ -16,6 +16,7 @@ div {
     padding: 20px;
 }
 
+/* Typography */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -25,12 +26,12 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+/* Color Scheme */
 body {
     background-color: #ecf0f1;
 }
 
-
+/* Interactive Elements */
 a {
     color: #fff;
     text-decoration: none;
@@ -49,4 +50,26 @@ img {
     max-width: 100%;
     height: auto;
     border: 0;
+}
+
+/* Additional CSS for Charities List Page */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    flex: 0 1 30%; /* Adjust the width of each section */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section img {
+    width: 80%; /* Uniform size for images */
+    margin-top: 10px;
 }
