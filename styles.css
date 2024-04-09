@@ -1,4 +1,3 @@
-
 header {
     background-color: #2c3e50;
     color: #fff;
@@ -32,7 +31,6 @@ body {
     background-color: #ecf0f1;
 }
 
-
 a {
     color: #fff;
     text-decoration: none;
@@ -46,7 +44,6 @@ a:hover {
     background-color: #2ecc71; /* Lighter Green */
 }
 
-
 img {
     max-width: 100%;
     height: auto;
@@ -59,7 +56,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Adjust the height as needed */
+    height: 80vh;
 }
 
 section {
@@ -99,4 +96,3 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #2ecc71;
-}
