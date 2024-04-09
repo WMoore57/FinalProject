@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Charities List - HelpHub</title>
+    <title>Pheasants Forever - Charity Profile</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Charities List</h1>
+        <h1>Pheasants Forever - Charity Profile</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="#">Charities</a>
-            <a href="charity_profile.html">Charity Profile</a>
+            <a href="charities.html">Charities</a>
         </nav>
     </header>
     <main>
         <section>
             <h2>Pheasants Forever</h2>
-            <p>Description:In 1982, a group of pheasant hunters saw the connection between upland habitat loss and declining pheasant populations. An organization dedicated to wildlife habitat conservation was needed, and Pheasants Forever was formed. Pheasants Forever’s mission work quickly garnered it a reputation as “The Habitat Organization,” a tagline the nonprofit conservation group uses proudly to this day. 
-
-Pheasants Forever's mission is to conserve pheasants, quail, and other wildlife through habitat improvements, public access, education, and conservation advocacy.</p>
             <img src="https://coveyrisemagazine.com/wp-content/uploads/2016/03/PF_NoSilo_Vector-918x1024.jpg" alt="Pheasants Forever Logo">
-        </section>
-        <section>
-            <h2>Ducks Unlimited</h2>
-            <p>Description: DU got its start in 1937 during the Dust Bowl when North America's drought-plagued waterfowl populations had plunged to unprecedented lows. Determined not to sit idly by as the continent's waterfowl dwindled beyond recovery, a small group of sportsmen joined together to form an organization that became known as Ducks Unlimited.
-            
-            Ducks Unlimited's mission is to conserves, restores, and manages wetlands and associated habitats for North America's waterfowl. These habitats also benefit other wildlife and people.</p>
-            <img src="https://dwhprojecttracker.org/wp-content/uploads/2019/12/Ducks-Unlimited-Logo.png" alt="Ducks Unlimited Logo">
-        </section>
-        <section>
-            <h2>Ronald McDonald House</h2>
-            <p>Description: We believe when families are together, they cope better. We believe no family should have to deal with their child’s medical crisis alone.
-            
-            Ronald McDonald House's mission is to provide essential services that remove barriers, strengthen families and promote healing when children need healthcare.</p>
-            <img src="https://rmhc-ctx.org/wp-content/uploads/RMHC-Chapter-Logo-for-Favicon.jpg" alt="Ronald Mcdonald House Logo">
+            <p>In 1982, a group of pheasant hunters saw the connection between upland habitat loss and declining pheasant populations. An organization dedicated to wildlife habitat conservation was needed, and Pheasants Forever was formed. Pheasants Forever’s mission work quickly garnered it a reputation as “The Habitat Organization,” a tagline the nonprofit conservation group uses proudly to this day.</p>
+            <p>Pheasants Forever's mission is to conserve pheasants, quail, and other wildlife through habitat improvements, public access, education, and conservation advocacy.</p>
+            <button><a href="#">Volunteer Now</a></button>
+            <form id="volunteerForm" style="display: none;">
+                <h3>Enter your contact information to volunteer:</h3>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <input type="submit" value="Volunteer Now">
+            </form>
         </section>
     </main>
 </body>
