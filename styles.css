@@ -2,20 +2,28 @@ body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333; 
-    background-color: #f5f5f5; 
+    color: #333;
+    background-color: #f5f5f5;
 }
 
 header {
     background-color: #2e7d32;
     color: #fff;
     padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
 }
 
 nav a {
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     margin-right: 20px;
+    background-color: #43a047;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 nav a:hover {
@@ -35,8 +43,8 @@ h1, h2, h3 {
 }
 
 button {
-    background-color: #43a047; 
-    color: #fff; 
+    background-color: #43a047;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -44,7 +52,7 @@ button {
 }
 
 button:hover {
-    background-color: #388e3c; 
+    background-color: #388e3c;
 }
 
 form label {
@@ -64,17 +72,17 @@ form input[type="submit"] {
 }
 
 form input[type="submit"] {
-    background-color: #43a047; 
-    color: #fff; 
+    background-color: #43a047;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form input[type="submit"]:hover {
-    background-color: #388e3c; 
+    background-color: #388e3c;
 }
 
 img {
-    width: 200px; /* Set the width of all images */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px;
+    height: auto;
 }
