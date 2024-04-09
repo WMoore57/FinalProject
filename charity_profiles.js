@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var volunteerButtons = document.querySelectorAll(".volunteer-button");
+            var volunteerButton = document.getElementById("volunteerButton");
+            var volunteerForm = document.getElementById("volunteerForm");
 
-    volunteerButtons.forEach(function(button) {
-        button.addEventListener("click", function(event) {
-            event.preventDefault();
-            var form = button.nextElementSibling;
-            form.style.display = "block";
+            volunteerButton.addEventListener("click", function(event) {
+                event.preventDefault();
+                volunteerForm.style.display = "block";
+            });
         });
-    });
-});
