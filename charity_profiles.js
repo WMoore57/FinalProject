@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     var volunteerButton = document.getElementById("volunteerButton");
     var volunteerForm = document.getElementById("volunteerForm");
+    var facebookButton = document.getElementById("facebookButton");
+    var twitterButton = document.getElementById("twitterButton");
 
     volunteerButton.addEventListener("click", function(event) {
         event.preventDefault();
