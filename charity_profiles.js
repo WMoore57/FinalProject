@@ -18,15 +18,15 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function shareOnSocialMedia(platform) {
-        var currentURL = window.location.href;
-        var shareText = "Check out Pheasants Forever - Charity Profile!";
+        var currentURL = encodeURIComponent(window.location.href);
+        var shareText = encodeURIComponent("Check out Pheasants Forever - Charity Profile!");
         var shareURL;
         switch (platform) {
             case 'facebook':
-                shareURL = 'https://www.facebook.com/sharer.php?u=' + encodeURIComponent(currentURL);
+                shareURL = 'https://www.facebook.com/sharer.php?u=' + currentURL;
                 break;
             case 'twitter':
-                shareURL = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(currentURL) + '&text=' + encodeURIComponent(shareText);
+                shareURL = 'https://twitter.com/intent/tweet?url=' + currentURL + '&text=' + shareText;
                 break;
             default:
                 console.error('Unsupported social media platform');
