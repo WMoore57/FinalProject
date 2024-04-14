@@ -87,3 +87,23 @@ img {
     width: 200px;
     height: auto;
 }
+footer {
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer button {
+    background-color: #43a047;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+footer button:hover {
+    background-color: #388e3c;
+}
