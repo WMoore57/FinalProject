@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function shareOnSocialMedia(platform) {
         var currentURL = encodeURIComponent(window.location.href);
-        var shareText = encodeURIComponent("Check out Pheasants Forever - Charity Profile!");
+        var pageTitle = encodeURIComponent(document.title);
+        var shareText = "Check out " + pageTitle + "!";
         var shareURL;
         switch (platform) {
             case 'facebook':
