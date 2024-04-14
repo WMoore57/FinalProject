@@ -9,6 +9,14 @@ document.addEventListener("DOMContentLoaded", function() {
         volunteerForm.style.display = "block";
     });
 
+    facebookButton.addEventListener("click", function() {
+        shareOnSocialMedia('facebook');
+    });
+
+    twitterButton.addEventListener("click", function() {
+        shareOnSocialMedia('twitter');
+    });
+
     function shareOnSocialMedia(platform) {
         var currentURL = window.location.href;
         var shareText = "Check out Pheasants Forever - Charity Profile!";
