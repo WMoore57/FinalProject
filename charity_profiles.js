@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var volunteerForm = document.getElementById("volunteerForm");
     var facebookButton = document.getElementById("facebookButton");
     var twitterButton = document.getElementById("twitterButton");
+    var emailInput = document.getElementById("emailInput"); // Assuming your email input has id "emailInput"
 
     volunteerButton.addEventListener("click", function(event) {
         event.preventDefault();
@@ -35,4 +36,15 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         window.open(shareURL, '_blank');
     }
+
+    function getEmail() {
+        var userEmail = emailInput.value;
+        console.log("User's email:", userEmail);
+    }
+
+  
+    volunteerForm.addEventListener("submit", function(event) {
+        event.preventDefault(); 
+        getEmail();
+    });
 });
